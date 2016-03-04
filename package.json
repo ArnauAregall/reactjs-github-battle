@@ -1,0 +1,33 @@
+{
+  "name": "reactjs-github-battle",
+  "version": "1.0.0",
+  "description": "ReactJS Fundamentals Course App - Github Battle",
+  "main": "index.js",
+  "scripts": {
+	"start": "webpack-dev-server",  
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnauAregall/reactjs-github-battle.git"
+  },
+  "author": "Arnau Aregall <github@ar3soft.com> (https://github.com/ArnauAregall)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArnauAregall/reactjs-github-battle/issues"
+  },
+  "homepage": "https://github.com/ArnauAregall/reactjs-github-battle#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
